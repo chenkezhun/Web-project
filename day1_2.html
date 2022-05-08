@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<table>
+		<caption>成绩表</caption>
+		<tr><th>学号</th><th>姓名</th><th>成绩</th></tr>
+		<tr>
+			<th>1001</th>
+			<th>乔丹</th>
+			<th>89</th>
+		</tr>
+		<tr>
+			<th>1002</th>
+			<th>贝利</th>
+			<th>90</th>
+		</tr>
+		<tr>
+			<th>1003</th>
+			<th>郎平</th>
+			<th>88</th>
+		</tr>
+	</table>
+	<script>
+		var a = 1;
+		var b = 12;
+		var z = a +b;
+		alert(z);
+
+
+		var myVariable = 'global';
+		myOtherVariable = "global";
+		function myFuntion(){
+			var myVariable = "local";
+			return myVariable;
+		}
+		function myOtherFuntion(){
+			myOtherVariable = "local";
+			return myOtherVariable;
+		}
+		console.log(myVariable);
+		console.log(myFuntion());
+		console.log(myOtherVariable);
+		console.log(myOtherFuntion());
+		console.log(myOtherVariable);
+	</script>
+</body>
+</html>
